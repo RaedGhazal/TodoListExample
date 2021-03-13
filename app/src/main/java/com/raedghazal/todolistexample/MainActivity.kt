@@ -6,10 +6,8 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.raedghazal.todolistexample.adapters.TodoAdapter
 import com.raedghazal.todolistexample.databinding.ActivityMainBinding
-import com.raedghazal.todolistexample.model.Todo
 import com.raedghazal.todolistexample.viewmodel.MainActivityViewModel
 
 

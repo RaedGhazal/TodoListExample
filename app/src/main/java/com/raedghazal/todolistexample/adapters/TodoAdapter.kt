@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.raedghazal.todolistexample.model.Todo
 import com.raedghazal.todolistexample.databinding.ItemTodoBinding
 
-class TodoAdapter() :
+class TodoAdapter :
     RecyclerView.Adapter<TodoAdapter.ViewHolder>() {
     inner class ViewHolder(val binding: ItemTodoBinding) : RecyclerView.ViewHolder(binding.root)
 

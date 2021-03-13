@@ -3,7 +3,6 @@ package com.raedghazal.todolistexample.apis
 import com.raedghazal.todolistexample.model.Todo
 import io.reactivex.Observable
 import retrofit2.http.GET
-import retrofit2.http.Path
 
 interface TodoAPI {
 
